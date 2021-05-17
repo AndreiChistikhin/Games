@@ -15,5 +15,4 @@ public class MainCamera : MonoBehaviour
         cameraPosition.z = playerPosition.z;
         transform.position = cameraPosition;  
     }
-
 }

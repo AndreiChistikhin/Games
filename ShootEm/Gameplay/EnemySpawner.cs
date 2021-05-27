@@ -48,10 +48,5 @@ public class EnemySpawner : MonoBehaviour
         GameObject enemy = ObjectPool.GetEnemy();
         enemy.transform.position = enemyPos;
         enemy.SetActive(true);
-
-        // kluge because some enemies are going faster when spawned
-        enemy.GetComponent<Enemy>().Deactivate();
-
-        enemy.GetComponent<Enemy>().Activate();
     }
 }

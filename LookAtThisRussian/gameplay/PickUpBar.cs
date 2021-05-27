@@ -7,8 +7,6 @@ public class PickUpBar : MonoBehaviour
     GameObject player;
     Vodka[] vodkaScript;
 
-
-
     void Start()
     {
         player = GameObject.FindObjectOfType<Player>().gameObject;

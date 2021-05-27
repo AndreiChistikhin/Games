@@ -32,7 +32,7 @@ public class AudioManager : MonoBehaviour
         s.source.Play();
     }
      private void Update()
-      {
+     {
         foreach (Sound s in sounds)
         {
             s.source.volume = musicVolume;
@@ -69,16 +69,11 @@ public class AudioManager : MonoBehaviour
             songNumber = UnityEngine.Random.Range(3, 8);
             musciIsOn = true;
             Play("Song" + songNumber);
-        }
-                
-            
+        }         
     }
 
     public void VolumeChange(float volume)
     {
         musicVolume = volume;
     }
-
-      
-
 }

@@ -3,9 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-/// <summary>
-/// The player ship
-/// </summary>
 public class Ship : MonoBehaviour
 {
     int health = 100;

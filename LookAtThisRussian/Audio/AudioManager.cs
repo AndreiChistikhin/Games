@@ -7,7 +7,8 @@ using System;
 
 public class AudioManager : MonoBehaviour
 {
-    public Sound[] sounds;
+    [SerializeField]
+    Sound[] sounds;
     int songNumber;
     bool musciIsOn;
     float musicVolume=1f;

@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-	CapsuleCollider[] playerCollider;
+    CapsuleCollider[] playerCollider;
     Vector3 playerPosition;
-	Rigidbody playerRigidBody;
+    Rigidbody playerRigidBody;
     SpriteRenderer player;
 
     Timer playerColliderIsTrigger;
@@ -69,8 +69,8 @@ public class Player : MonoBehaviour
  
     void FixedUpdate()
 	{
-		Vector3 input = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-        input.Normalize();
+	        Vector3 input = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+                input.Normalize();
 		playerRigidBody.MovePosition(transform.position+=input * Time.fixedDeltaTime * playerSpeed);
 	}
    

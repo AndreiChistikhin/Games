@@ -2,9 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// An enemy spawner
-/// </summary>
+
 public class EnemySpawner : MonoBehaviour
 {
     Timer spawnTimer;

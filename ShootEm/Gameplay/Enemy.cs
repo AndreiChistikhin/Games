@@ -2,9 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/// <summary>
-/// An enemy
-/// </summary>
 public class Enemy : MonoBehaviour
 {
     Timer shootTimer;

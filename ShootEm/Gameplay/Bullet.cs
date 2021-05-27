@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    // saved for efficiency
     Rigidbody2D rb2d;
     Vector2 forceVector;
 
@@ -13,7 +12,6 @@ public class Bullet : MonoBehaviour
 
     public void Initialize()
     {       
-        // save Rigidbody2D for efficiency
         rb2d = GetComponent<Rigidbody2D>();
         forceVector = new Vector2(
             GameConstants.BulletImpulseForce, 0);

@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
     float maximumSpawnCoordinate = 445f;
 
     void Start()
-	{
+    {
         invulnerability = gameObject.AddComponent<Timer>();
         invulnerability.Duration = 10;
 

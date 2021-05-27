@@ -7,13 +7,13 @@ using UnityEngine.AI;
 public class GrannySpawner : MonoBehaviour
 {
 	
-	[SerializeField]
-	GameObject prefabGranny;
-	UI scriptUI;
-	Timer spawnTimer;
-	Vector3 spawnLocation;
-    float minimumSpawnCoordinate = -445f;
-    float maximumSpawnCoordinate = 445f;
+[SerializeField]
+GameObject prefabGranny;
+UI scriptUI;
+Timer spawnTimer;
+Vector3 spawnLocation;
+float minimumSpawnCoordinate = -445f;
+float maximumSpawnCoordinate = 445f;
 
     void Start()
     {

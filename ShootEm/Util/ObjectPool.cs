@@ -9,10 +9,6 @@ public class ObjectPool : MonoBehaviour
     static GameObject prefabEnemy;
     static Dictionary<PooledObjectName, List<GameObject>> pools;
 
-    // events invoked by class (for autograding only)
-    static BulletCreated bulletCreated = new BulletCreated();
-    static EnemyCreated enemyCreated = new EnemyCreated();
-
     public static void Initialize()
     {
         prefabBullet = Resources.Load<GameObject>("Bullet");
